@@ -1,0 +1,33 @@
+MSDS 451 - Programming Assignment 2
+Eight ETFs: independent six-ETF USD and two-ETF BRL budgets.
+Teacher: 700 annual return draws; 700 portfolios per strategy.
+ETFs: 500,000 random portfolios per strategy and sample.
+
+Full searches use 500,000 allocations; clouds save 20,000 per strategy.
+
+usd_long: 378 weekly returns; 2019-07-26 to 2026-10-23
+usd_recent: 156 weekly returns; 2023-10-27 to 2026-10-23
+brl_long: 378 weekly returns; 2019-07-26 to 2026-10-23
+brl_recent: 156 weekly returns; 2023-10-27 to 2026-10-23
+
+Highest sampled means and their associated volatilities:
+      case currency  long_only_mean  shorts_mean  mean_delta  long_only_volatility  shorts_volatility  volatility_delta
+   teacher    Model        0.168318     0.525413    0.357095              0.181623           0.777026          0.595403
+  usd_long      USD        0.153940     0.193377    0.039437              0.178103           0.272261          0.094158
+usd_recent      USD        0.223889     0.269524    0.045635              0.133737           0.180708          0.046971
+  brl_long      BRL        0.143444     0.168296    0.024852              0.197735           0.209055          0.011321
+brl_recent      BRL        0.219243     0.225102    0.005859              0.153208           0.163879          0.010671
+
+Checks:
+PASS: Daily price and FX files match their download hashes
+PASS: Each weekly ETF price uses the correct USD conversion
+PASS: The BRL block retains its original BRL prices
+PASS: Changing BRL/USD leaves Brazilian-block returns unchanged
+PASS: Exactly eight ETFs; both budgets share the same long and recent dates
+PASS: Sample dates, weekly returns and covariance matrices are valid
+PASS: All allocation counts and exposures pass; direct return series match portfolio formulas
+PASS: Unchanged asset lists reuse identical allocation samples across windows
+PASS: Each currency block has its own net budget and contains no assets from the other block
+PASS: Original weight rules and simulated-return summaries pass without added exposure or risk ceilings
+PASS: Every ETF and equal-weight window statistic and delta matches its weekly returns
+PASS: The English report contains weekly paths, four large ETF panels, the required appendix and five equations

@@ -1,0 +1,133 @@
+{
+  "downloaded_utc": "2026-10-25T20:37:02.965174+00:00",
+  "requested_start": "2000-01-01",
+  "requested_end_exclusive": "2026-10-24",
+  "provider": "Yahoo Finance via yfinance",
+  "series": [
+    {
+      "etf": "VOO",
+      "symbol": "VOO",
+      "currency": "USD",
+      "market": "United States",
+      "rule": "Market",
+      "first_date": "2010-09-09",
+      "last_date": "2026-10-23",
+      "rows": 4056,
+      "url": "https://finance.yahoo.com/quote/VOO/history/"
+    },
+    {
+      "etf": "VYM",
+      "symbol": "VYM",
+      "currency": "USD",
+      "market": "United States",
+      "rule": "Dividend",
+      "first_date": "2006-11-16",
+      "last_date": "2026-10-23",
+      "rows": 5014,
+      "url": "https://finance.yahoo.com/quote/VYM/history/"
+    },
+    {
+      "etf": "QUAL",
+      "symbol": "QUAL",
+      "currency": "USD",
+      "market": "United States",
+      "rule": "Quality",
+      "first_date": "2013-07-18",
+      "last_date": "2026-10-23",
+      "rows": 3338,
+      "url": "https://finance.yahoo.com/quote/QUAL/history/"
+    },
+    {
+      "etf": "VWRA",
+      "symbol": "VWRA.L",
+      "currency": "USD",
+      "market": "World",
+      "rule": "Market",
+      "first_date": "2019-07-23",
+      "last_date": "2026-10-23",
+      "rows": 1833,
+      "url": "https://finance.yahoo.com/quote/VWRA.L/history/"
+    },
+    {
+      "etf": "VHYL",
+      "symbol": "VHYL.L",
+      "currency": "GBP",
+      "market": "World",
+      "rule": "Dividend",
+      "first_date": "2013-05-21",
+      "last_date": "2026-10-23",
+      "rows": 3393,
+      "url": "https://finance.yahoo.com/quote/VHYL.L/history/"
+    },
+    {
+      "etf": "IWQU",
+      "symbol": "IWQU.L",
+      "currency": "USD",
+      "market": "World",
+      "rule": "Quality",
+      "first_date": "2014-10-06",
+      "last_date": "2026-10-23",
+      "rows": 3046,
+      "url": "https://finance.yahoo.com/quote/IWQU.L/history/"
+    },
+    {
+      "etf": "BOVA11",
+      "symbol": "BOVA11.SA",
+      "currency": "BRL",
+      "market": "Brazil",
+      "rule": "Market",
+      "first_date": "2008-11-28",
+      "last_date": "2026-10-23",
+      "rows": 4445,
+      "url": "https://finance.yahoo.com/quote/BOVA11.SA/history/"
+    },
+    {
+      "etf": "DIVO11",
+      "symbol": "DIVO11.SA",
+      "currency": "BRL",
+      "market": "Brazil",
+      "rule": "Dividend",
+      "first_date": "2012-01-31",
+      "last_date": "2026-10-23",
+      "rows": 3661,
+      "url": "https://finance.yahoo.com/quote/DIVO11.SA/history/"
+    },
+    {
+      "etf": "AUVP11",
+      "symbol": "AUVP11.SA",
+      "currency": "BRL",
+      "market": "Brazil",
+      "rule": "Quality",
+      "first_date": "2025-09-22",
+      "last_date": "2026-10-23",
+      "rows": 271,
+      "url": "https://finance.yahoo.com/quote/AUVP11.SA/history/"
+    },
+    {
+      "etf": "USDBRL",
+      "symbol": "BRL=X",
+      "currency": "BRL",
+      "market": "FX",
+      "rule": "FX",
+      "first_date": "2003-12-01",
+      "last_date": "2026-10-23",
+      "rows": 5523,
+      "url": "https://finance.yahoo.com/quote/BRL=X/history/"
+    },
+    {
+      "etf": "GBPUSD",
+      "symbol": "GBPUSD=X",
+      "currency": "USD",
+      "market": "FX",
+      "rule": "FX",
+      "first_date": "2003-12-01",
+      "last_date": "2026-10-23",
+      "rows": 5953,
+      "url": "https://finance.yahoo.com/quote/GBPUSD=X/history/"
+    }
+  ],
+  "files_sha256": {
+    "prices.csv": "d77bb456d82f3380e05a665d30a5539d79fd31c051167d86dbc9c239cd921731",
+    "fx.csv": "889c3da96437afb5a01acfb1459bcac6e6a3b2e5897f6b82b8a17d8b164068ea"
+  }
+}

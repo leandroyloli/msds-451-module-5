@@ -1,0 +1,16 @@
+{
+  "passed": [
+    "Daily price and FX files match their download hashes",
+    "Each weekly ETF price uses the correct USD conversion",
+    "The BRL block retains its original BRL prices",
+    "Changing BRL/USD leaves Brazilian-block returns unchanged",
+    "Exactly eight ETFs; both budgets share the same long and recent dates",
+    "Sample dates, weekly returns and covariance matrices are valid",
+    "All allocation counts and exposures pass; direct return series match portfolio formulas",
+    "Unchanged asset lists reuse identical allocation samples across windows",
+    "Each currency block has its own net budget and contains no assets from the other block",
+    "Original weight rules and simulated-return summaries pass without added exposure or risk ceilings",
+    "Every ETF and equal-weight window statistic and delta matches its weekly returns",
+    "The English report contains weekly paths, four large ETF panels, the required appendix and five equations"
+  ]
+}
